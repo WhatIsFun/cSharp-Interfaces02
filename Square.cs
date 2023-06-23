@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace cSharp_Interface02
 {
-    internal class Square : IShape
+    internal class Square : IShape, IComparable<Square>
     {
         public double length;
 
